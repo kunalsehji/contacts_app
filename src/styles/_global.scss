@@ -1,0 +1,20 @@
+@import "typography";
+@import "variables/colors";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font-family: $baseFontFamily;
+  font-weight: $baseFontWeight;
+  font-size: 24px;
+  color: $colorPrimary;
+  margin: 0;
+  height: 100%;
+}
