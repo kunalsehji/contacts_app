@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ContactDetails from "../../components/contactDetails";
-import { onContactAdd, fetchContacts } from "../../utils";
+import { onContactAdd } from "../../utils";
 import { useNavigate } from "react-router-dom";
 
 const Index = () => {
